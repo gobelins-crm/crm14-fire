@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements RegisterFragment.
         if (savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.mainContainer, new RegisterFragment())
+                    .add(R.id.contentContainer, new RegisterFragment())
                     .commit();
         }
     }
