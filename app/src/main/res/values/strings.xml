@@ -3,4 +3,5 @@
     <string name="login.button">Login</string>
     <string name="login.name.hint">Your name</string>
     <string name="login.password.hint">Your password</string>
+    <string name="menu.main.register">Register</string>
 </resources>
