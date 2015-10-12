@@ -1,6 +1,7 @@
 package fr.louisbl.helloagaincrm;
 
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements RegisterFragment.
 
         if (id == R.id.menuMainRegisterItem) {
             Log.d(TAG, "menuMainRegisterItem clicked");
+            Snackbar.make(findViewById(R.id.mainContainer), "Menu item clicked", Snackbar.LENGTH_LONG)
+                    .show();
             return true;
         }
 
